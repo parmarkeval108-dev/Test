@@ -27,15 +27,67 @@ insights   expertise   intelligence  structured   lasting
 
 ---
 
-## Getting started
+## Setting it up
 
-**Ask a question.** The skills load on their own when a task matches. "Build a trading comp set for Company X" pulls in `comparable-company-analysis` without being asked.
+The kit lives in `.claude/`, so it loads automatically for any Claude Code session opened on this repository. Pick whichever route suits you.
 
-**Run an agent.** `Use the dcf-modeling-agent to value this business` — or invoke it through the Agent tool with `subagent_type: "dcf-modeling-agent"`.
+Claude Code requires a Pro, Max, Team, Enterprise or Console account — the free claude.ai plan does not include it.
 
-**Run a workflow.** Open `ib-kit/workflows/valuation.md` and work the phases. Each phase names the agent that runs each step, and each gate must be passed before the next phase starts.
+### On the web — nothing to install
 
-**Adopt a system.** Start with `ib-kit/systems/execution-system.md`. Stand up its five registers on day one of a mandate. The registers are what turn a set of workflows into something that improves.
+Go to [claude.ai/code](https://claude.ai/code), start a session on this repository, and ask it something. The skills and agents are already there.
+
+### On your own machine
+
+```bash
+# macOS, Linux, WSL
+curl -fsSL https://claude.ai/install.sh | bash
+
+# Windows PowerShell
+irm https://claude.ai/install.ps1 | iex
+```
+
+Then:
+
+```bash
+git clone https://github.com/parmarkeval108-dev/Test.git
+cd Test
+claude
+```
+
+Prefer a graphical interface? The [desktop app](https://code.claude.com/docs/en/desktop-quickstart) runs Claude Code without the terminal. Full options in the [setup docs](https://code.claude.com/docs/en/setup).
+
+### In every project, not just this one
+
+Copy the components into your home directory and they load everywhere on that machine:
+
+```bash
+mkdir -p ~/.claude/skills ~/.claude/agents
+cp -r .claude/skills/* ~/.claude/skills/
+cp -r .claude/agents/* ~/.claude/agents/
+```
+
+One caveat: personal skills in `~/.claude/` do **not** load in cloud or Cowork sessions. Only the project copy does, which is why the kit ships in the repository rather than as a personal install.
+
+---
+
+## Using it
+
+**Just ask.** Skills load on their own when a task matches their description. "Build a trading comp set for Company X" pulls in `comparable-company-analysis` unprompted.
+
+**Invoke a skill directly.** `/valuation-techniques`, `/india-transaction-regime` — the command name is the directory name.
+
+**Run an agent.** `Use the dcf-modeling-agent to value this business`, or through the Agent tool with `subagent_type: "dcf-modeling-agent"`.
+
+**Run a workflow.** Open `ib-kit/workflows/valuation.md` and work the phases. Each phase names the agent per step, and each gate must pass before the next phase starts.
+
+**Adopt a system.** Start with `ib-kit/systems/execution-system.md`. Stand up its five registers on day one of a mandate — the registers are what turn a set of workflows into something that improves.
+
+### A first thing to try
+
+> Use the trading-comps-agent to build a comp set for an Indian specialty chemicals manufacturer with ₹1,200 crore revenue. Tell me what you'd need from me, and what you cannot determine without it.
+
+A good response names the standalone-versus-consolidated decision before it builds anything, and tells you what it does not know. If it invents a peer set and hands you confident multiples, something is wrong.
 
 ---
 

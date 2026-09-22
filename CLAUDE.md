@@ -9,6 +9,7 @@ This repository contains **The Claude Investment Banking Kit** — see `ib-kit/R
 - `ib-kit/prompts/` — 505 prompts across 12 libraries.
 - `ib-kit/workflows/` — 26 gated, phased procedures.
 - `ib-kit/systems/` — 3 standing operating models.
+- `work/` — deliverables produced with the kit, one directory per subject.
 - `index.html` — an unrelated pre-existing page; leave it alone.
 
 ## Working standard for any analysis in this repository

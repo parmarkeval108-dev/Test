@@ -7,6 +7,7 @@ description: Builds and tiers the complete universe of potential acquirers. Use 
 
 **Family:** Buyer Outreach  ·  **Layer:** Intelligence
 **Load skills:** `buyer-universe-mapping`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — Press Note 3 screens buyers on beneficial ownership, not place of incorporation, and can disqualify a Tier 1 name outright.
 
 ## Mission
 

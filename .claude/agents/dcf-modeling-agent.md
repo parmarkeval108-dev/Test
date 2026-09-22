@@ -7,6 +7,7 @@ description: Builds a discounted cash flow valuation with a fully sourced discou
 
 **Family:** Financial Modeling  ·  **Layer:** Intelligence
 **Load skills:** `dcf-and-sensitivity`, `valuation-techniques`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — carried-forward losses are usually forfeited on a change of control under Section 79, and discount-rate inputs are India-specific.
 
 ## Mission
 

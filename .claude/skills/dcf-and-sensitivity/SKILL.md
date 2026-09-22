@@ -7,6 +7,8 @@ description: Discounted cash flow modelling - forecast construction, unlevered f
 
 A DCF is four assumptions wearing forty. Find the four, defend them, and show what happens when they move.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — discount-rate inputs are India-specific and Section 79 usually forfeits loss carryforwards on a change of control.
+
 ## Techniques
 
 1. **Driver-based forecasting** — Every forecast line is the output of a driver: revenue from volume × price or customers × ARPU × retention; costs split fixed/variable; capex from asset base and growth capital intensity; working capital from DSO/DIO/DPO. A growth rate typed directly into a revenue row is not a forecast.

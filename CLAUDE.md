@@ -4,9 +4,9 @@ This repository contains **The Claude Investment Banking Kit** — see `ib-kit/R
 
 ## Structure
 
-- `.claude/skills/` — 18 investment banking skills. They load automatically when a task matches their description.
+- `.claude/skills/` — 19 investment banking skills. They load automatically when a task matches their description.
 - `.claude/agents/` — 107 subagent definitions, invocable by name via the Agent tool.
-- `ib-kit/prompts/` — 504 prompts across 12 libraries.
+- `ib-kit/prompts/` — 505 prompts across 12 libraries.
 - `ib-kit/workflows/` — 26 gated, phased procedures.
 - `ib-kit/systems/` — 3 standing operating models.
 - `index.html` — an unrelated pre-existing page; leave it alone.

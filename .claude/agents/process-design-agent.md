@@ -7,6 +7,7 @@ description: Designs the sale process: type, waves, timetable and tension mechan
 
 **Family:** Buyer Outreach  ·  **Layer:** Intelligence
 **Load skills:** `buyer-universe-mapping`, `deal-structuring`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — an open offer runs in parallel with any listed-company process and constrains its timetable.
 
 ## Mission
 

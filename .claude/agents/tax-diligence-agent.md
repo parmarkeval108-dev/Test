@@ -7,6 +7,7 @@ description: Identifies historic tax exposures and assesses the transaction's ta
 
 **Family:** Diligence Analysis  ·  **Layer:** Intelligence
 **Load skills:** `deal-structuring`, `risk-assessment`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — the s.115BAA election moves the effective rate by roughly 1,000bps and Section 79 forfeits losses on a change of control.
 
 ## Mission
 

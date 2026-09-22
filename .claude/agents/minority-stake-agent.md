@@ -7,6 +7,7 @@ description: Evaluates minority investments and the protections they require. Us
 
 **Family:** Specialist  ·  **Layer:** Intelligence
 **Load skills:** `valuation-techniques`, `deal-structuring`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — crossing 25% triggers a mandatory open offer, so a minority stake has a statutory cost ceiling.
 
 ## Mission
 

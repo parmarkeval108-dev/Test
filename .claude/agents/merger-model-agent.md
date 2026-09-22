@@ -7,6 +7,7 @@ description: Builds a merger model and accretion/dilution analysis with full pur
 
 **Family:** Financial Modeling  ·  **Layer:** Intelligence
 **Load skills:** `accretion-dilution-modeling`, `synergy-quantification`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — a scheme of arrangement under the Companies Act 2013 requires NCLT sanction, which drives the timetable.
 
 ## Mission
 

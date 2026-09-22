@@ -7,6 +7,7 @@ description: Maps ownership, control and who can actually approve a transaction.
 
 **Family:** Company Research  ·  **Layer:** Intelligence
 **Load skills:** `buyer-universe-mapping`, `deal-structuring`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — control sits with the promoter and promoter group, whose holdings and share pledges are separately disclosed.
 
 ## Mission
 

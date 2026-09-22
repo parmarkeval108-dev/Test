@@ -23,7 +23,7 @@
 13. **Depreciation schedule** — "Build a rolling depreciation schedule from opening PP&E and forecast capex using `<useful life>`. Do not forecast depreciation as a percentage of revenue."
 14. **Working capital** — "Forecast working capital from DSO, DIO and DPO with explicit day assumptions. Show the cash flow impact per year and flag any year where the assumption improves without a stated reason."
 15. **Tax build** — "Build the cash tax forecast: statutory rate by jurisdiction, mix, permanent differences, NOL utilisation with expiry, and the year cash tax converges to the effective rate."
-16. **NOL valuation** — "Value `<Company>`'s `<$X>`m of NOLs separately: utilisation schedule under the forecast, any Section 382 or local limitation, and discounted value."
+16. **NOL valuation** — "Value `<Company>`'s `<$X>`m of NOLs separately: utilisation schedule under the forecast, any change-of-control limitation (US Section 382, India Section 79, or the local equivalent) — in some regimes the losses are forfeited outright rather than rate-limited, and discounted value."
 17. **Unlevered FCF bridge** — "Build the unlevered free cash flow line from EBIT: less cash taxes on EBIT, plus D&A, less capex, less change in working capital, plus/minus other non-cash items. Show every line for every year."
 18. **Lease treatment** — "State whether leases are treated as debt or as operating cost, and enforce that choice consistently in FCF, WACC and the net-debt bridge. Show both treatments once to prove consistency."
 19. **Pension cash flow** — "Model the pension deficit-recovery payments separately from operating cash flow, and deduct the deficit in the equity bridge — not both."

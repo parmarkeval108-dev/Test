@@ -7,6 +7,8 @@ description: Mapping and prioritising the universe of potential acquirers - stra
 
 The buyer list determines the price. A wider list raises tension; a wrong list leaks information and wastes the seller's one moment of leverage.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — Press Note 3 screens on beneficial ownership and the open-offer obligation changes what each buyer can afford.
+
 ## Techniques
 
 1. **Segmented construction** — Strategic: direct competitors, adjacent players, vertical integrators, new entrants, international entrants. Financial: sector-focused sponsors, generalists, growth equity, family offices, long-hold capital, sponsor-owned platforms. Build each segment methodically before ranking any of them.

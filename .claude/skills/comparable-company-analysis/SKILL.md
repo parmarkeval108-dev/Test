@@ -7,6 +7,8 @@ description: Building and defending trading comparable company analysis - peer s
 
 The comp set is the analysis. Selection decides the answer, so selection carries the burden of proof.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — Indian issuers report standalone and consolidated, and mixing the bases is a live error.
+
 ## Techniques
 
 1. **Criteria-first peer selection** — Write the selection criteria before looking at any candidate: business model, size band, growth band, margin band, geography, capital intensity. Then apply them mechanically and record every include/exclude decision with its reason.

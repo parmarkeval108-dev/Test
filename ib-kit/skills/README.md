@@ -4,7 +4,7 @@ Every skill below is a working Claude Code skill in `.claude/skills/`. They load
 
 A skill is not a checklist. Each one carries named techniques with the method, the formula where there is one, and the failure mode that makes the technique necessary.
 
-**18 skills encoding 248 named techniques.**
+**19 skills encoding 265 named techniques.**
 
 | Skill | Covers | Techniques |
 |---|---|---|
@@ -15,6 +15,7 @@ A skill is not a checklist. Each one carries named techniques with the method, t
 | [`deal-structuring`](../../.claude/skills/deal-structuring/SKILL.md) | Transaction structuring - legal form, consideration design, earn-outs, price adjustment mechanisms, tax structure, conditionality and risk allocation | 15 |
 | [`diligence-questioning`](../../.claude/skills/diligence-questioning/SKILL.md) | Designing and conducting due diligence questioning - question design, management session structure, answer evaluation, evasion detection and findings synthesis | 14 |
 | [`financial-statement-modeling`](../../.claude/skills/financial-statement-modeling/SKILL.md) | Building integrated three-statement operating models - structure, linkages, working capital, debt schedules, circularity handling and model audit | 14 |
+| [`india-transaction-regime`](../../.claude/skills/india-transaction-regime/SKILL.md) | India-specific transaction rules that change the answer - SEBI SAST open offers, FEMA pricing floors and ceilings, Press Note 3, CCI merger control and the deal value threshold, IBC insolvency and Section 29A, delisting, promoter structures, Ind AS reporting and Indian valuation inputs | 17 |
 | [`industry-analysis`](../../.claude/skills/industry-analysis/SKILL.md) | Industry and market analysis for transactions - market sizing, structure, competitive dynamics, cycle positioning and regulatory assessment, translated into forecast implications | 13 |
 | [`investment-memo-writing`](../../.claude/skills/investment-memo-writing/SKILL.md) | Writing investment committee memos and board papers - structure, thesis articulation, evidence discipline, risk sections and committee preparation | 15 |
 | [`lbo-modeling`](../../.claude/skills/lbo-modeling/SKILL.md) | Leveraged buyout modelling - sources and uses, capital structure design, debt schedules and sweeps, returns attribution, covenant headroom and downside testing | 16 |
@@ -43,6 +44,8 @@ A skill is not a checklist. Each one carries named techniques with the method, t
 **diligence-questioning** — Document-first filtering · Question classification · Disconfirming design · Omission analysis · Follow-up trees · Definition interrogation · Single-question discipline · Evidence anchoring · Session design · Evasion detection · Cross-source consistency checking · Value-impact triage · Second-session construction · Expert-call design
 
 **financial-statement-modeling** — Architecture before build · Single-input principle · Row consistency · Statement linkage · Working capital schedule · Rolling fixed-asset schedule · Debt and interest schedule · Circularity management · Tax modelling · Scenario switching · Check row discipline · Sensitivity and data tables · Model audit protocol · Documentation
+
+**india-transaction-regime** — Open-offer funding — size the bid before you size the stake · Open-offer price as a valuation floor · FEMA pricing — price is not freely negotiable cross-border · Deferred consideration is capped, not barred · Press Note 3 — the inbound FDI screen · CCI merger control and the deal value threshold · Delisting — reverse book building or fixed price · Promoter structure — who actually controls the outcome · Related-party transactions with promoter entities · Standalone versus consolidated — pick one and enforce it · Indian discount-rate inputs · Tax rate and regime election · Loss carryforward on a change of control — Section 79 · IBC — the process is creditor-controlled and time-bound · IBC Section 29A — the promoter may be barred from bidding · Scheme of arrangement and NCLT timelines · Indian data sources
 
 **industry-analysis** — Two-way market sizing · Boundary definition · Profit-pool mapping · Quantified five forces · Share-shift diagnosis · Cost-curve positioning · Cycle placement with signposts · Elasticity quantification · Pass-through analysis · Disruption screening with evidence · Regulatory pathway mapping · Scenario construction with signposts · Read-across to the forecast
 

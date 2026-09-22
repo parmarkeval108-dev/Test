@@ -4,12 +4,12 @@ Twelve libraries covering the analysis an investment banking team actually produ
 
 These are written to be demanding: they ask for the source, the driver and the thing that would disprove the answer. A prompt that produces a confident unsourced number is worse than no prompt.
 
-**504 prompts across 12 libraries.**
+**505 prompts across 12 libraries.**
 
 | Library | Prompts | Pairs with |
 |---|---|---|
 | [M&A Screening Prompts](01-ma-screening.md) | 42 | `skills/screening-and-targeting`, `agents/target-screening-agent`, `workflows/deal-screening.md` |
-| [Comparable Companies Prompts](02-comparable-companies.md) | 42 | `skills/comparable-company-analysis`, `agents/trading-comps-agent`, `workflows/valuation.md` |
+| [Comparable Companies Prompts](02-comparable-companies.md) | 43 | `skills/comparable-company-analysis`, `agents/trading-comps-agent`, `workflows/valuation.md` |
 | [Precedent Transaction Prompts](03-precedent-transactions.md) | 42 | `skills/precedent-transaction-analysis`, `agents/precedent-transactions-agent`, `workflows/valuation.md` |
 | [Industry & Market Analysis Prompts](04-industry-market-analysis.md) | 42 | `skills/industry-analysis`, `agents/market-intelligence-agent`, `workflows/pitchbook.md` |
 | [DCF Modeling Prompts](05-dcf-modeling.md) | 42 | `skills/dcf-and-sensitivity`, `agents/dcf-modeling-agent`, `workflows/valuation.md` |

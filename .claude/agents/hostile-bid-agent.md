@@ -7,6 +7,7 @@ description: Analyses and prepares for unsolicited and hostile takeover situatio
 
 **Family:** Specialist  ·  **Layer:** Intelligence
 **Load skills:** `valuation-techniques`, `buyer-universe-mapping`, `risk-assessment`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — SEBI (SAST) sets the timetable, the trigger thresholds and a statutory open-offer price floor.
 
 ## Mission
 

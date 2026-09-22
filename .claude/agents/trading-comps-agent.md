@@ -7,6 +7,7 @@ description: Builds and defends a trading comparable company analysis. Use when 
 
 **Family:** Valuation  ·  **Layer:** Intelligence
 **Load skills:** `comparable-company-analysis`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — Indian issuers report both standalone and consolidated, and the bases must not be mixed.
 
 ## Mission
 

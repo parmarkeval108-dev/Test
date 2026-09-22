@@ -7,6 +7,7 @@ description: Models recoveries by creditor class through the waterfall. Use when
 
 **Family:** Specialist  ·  **Layer:** Intelligence
 **Load skills:** `lbo-modeling`, `valuation-techniques`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — recoveries run through the IBC waterfall and the CoC selects the plan.
 
 ## Mission
 

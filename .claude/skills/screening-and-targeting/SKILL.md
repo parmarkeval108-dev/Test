@@ -7,6 +7,8 @@ description: Acquisition target screening and origination - universe constructio
 
 Screening produces a list. Origination produces a conversation. The gap between them is deliverability, and it is where most acquisition programmes fail.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — the affordability envelope must carry the open-offer obligation, and delisting feasibility changed materially in 2024.
+
 ## Techniques
 
 1. **Universe construction by three routes** — Build from industry classification, from the value chain, and from adjacency rings around the client's core. Each route surfaces targets the others miss; the union is the universe.

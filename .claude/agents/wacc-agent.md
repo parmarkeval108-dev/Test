@@ -7,6 +7,7 @@ description: Builds a defensible discount rate with every input cited. Use when 
 
 **Family:** Valuation  ·  **Layer:** Intelligence
 **Load skills:** `dcf-and-sensitivity`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — the risk-free is the 10-year G-Sec, the ERP carries an India country premium, and regression betas on promoter-dominated stocks are unreliable.
 
 ## Mission
 

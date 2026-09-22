@@ -7,6 +7,7 @@ description: Analyses a distressed capital structure and the restructuring optio
 
 **Family:** Specialist  ·  **Layer:** Intelligence
 **Load skills:** `valuation-techniques`, `scenario-and-stress-testing`, `deal-structuring`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — IBC is creditor-controlled through the CoC with a 330-day outer limit, not debtor-in-possession.
 
 ## Mission
 

@@ -20,7 +20,7 @@
 10. **Reconcile to filings** — "For every comp, tie revenue, EBITDA, net debt and share count back to the primary filing. Produce a reconciliation table with page or note references. List any figure you could not tie."
 11. **Diluted share count** — "Compute fully diluted shares for each comp using the treasury stock method. Include options, RSUs, PSUs at expected achievement, convertibles (if-converted where dilutive) and warrants."
 12. **Net debt bridge** — "Build the enterprise value bridge for each comp: market cap, plus gross debt, plus preferred, plus minorities at fair value, plus pension deficit net of tax, plus capitalised leases where not already in debt, less cash and equivalents, less non-core assets. Show every line."
-13. **Lease treatment consistency** — "Confirm every comp treats leases the same way post-IFRS 16/ASC 842. Where a US and IFRS filer are in the same set, restate to a common basis and show the effect on EV/EBITDA."
+13. **Lease treatment consistency** — "Confirm every comp treats leases the same way post-IFRS 16/ASC 842/Ind AS 116. Where filers under different standards sit in the same set, restate to a common basis and show the effect on EV/EBITDA."
 14. **Pension and OPEB** — "Quantify each comp's net pension deficit, the tax rate applied, and whether the deficit is debt-like. Show the multiple with and without."
 15. **Minorities and associates** — "For comps with material minorities or equity-method stakes, adjust EV and the earnings measure consistently. State the value you assigned to each stake and your method."
 16. **Adjusted vs reported** — "For each comp, compare management-adjusted EBITDA to reported. Tabulate the add-backs, and recompute multiples on a consistent definition of your own choosing."
@@ -28,6 +28,7 @@
 18. **Capitalised costs** — "Compare R&D and software capitalisation policies across the set. Restate to a common policy and show the multiple impact."
 19. **SBC treatment** — "Show each comp's multiple with stock-based compensation expensed and excluded. State which convention the sector uses and which you have adopted."
 20. **Currency consistency** — "Convert all comps to `<currency>` using period-average rates for flows and spot for balances. Disclose the rates used."
+20a. **Reporting basis (India and similar markets)** — "Where issuers report both standalone and consolidated financials, state which basis you have used, apply it to every company including the subject, and flag any peer where the two differ materially."
 21. **Consensus estimate hygiene** — "For forward multiples, state the estimate source, the number of contributing analysts, the estimate date, and whether any estimate predates the last earnings release. Exclude stale consensus."
 
 ## C. Analysis and presentation

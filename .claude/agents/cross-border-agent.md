@@ -7,6 +7,7 @@ description: Assesses cross-border transaction considerations beyond the commerc
 
 **Family:** Specialist  ·  **Layer:** Intelligence
 **Load skills:** `deal-structuring`, `risk-assessment`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — Press Note 3 governs inbound approval and FEMA pricing rules bound the price in both directions.
 
 ## Mission
 

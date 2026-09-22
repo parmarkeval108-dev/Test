@@ -7,6 +7,7 @@ description: Builds and reforecasts transaction timetables against actual progre
 
 **Family:** Deal Tracking  ·  **Layer:** Intelligence
 **Load skills:** `precedent-transaction-analysis`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — schemes of arrangement require NCLT sanction and are usually the long pole.
 
 ## Mission
 

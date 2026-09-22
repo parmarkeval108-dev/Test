@@ -4,7 +4,7 @@ Every agent below is a working Claude Code subagent defined in `.claude/agents/`
 
 Each definition carries a mission, the inputs it requires, a method, the output it produces, and a fixed set of non-negotiables: every figure sourced and dated, nothing unverified presented as verified, and the finding that weakens the case reported as prominently as the one that supports it.
 
-**107 agents across 12 families.**
+**107 agents across 12 families.** 18 carry a jurisdiction pointer to `india-transaction-regime` — see [CONTEXTS.md](../CONTEXTS.md#jurisdictions).
 
 
 ## Company Research  *(10)*
@@ -17,8 +17,8 @@ Each definition carries a mission, the inputs it requires, a method, the output 
 | `corporate-history-agent` | Reconstructs a company's corporate and transaction history and what it reveals. | `precedent-transaction-analysis`, `buyer-universe-mapping` |
 | `customer-analysis-agent` | Analyses the customer base: concentration, economics, retention and risk. | `diligence-questioning`, `risk-assessment` |
 | `management-assessment-agent` | Assesses a management team against the plan they are asking to be funded. | `risk-assessment`, `diligence-questioning` |
-| `ownership-structure-agent` | Maps ownership, control and who can actually approve a transaction. | `buyer-universe-mapping`, `deal-structuring` |
-| `public-filings-extraction-agent` | Extracts and reconciles structured financial data from filings with full traceability. | `financial-statement-modeling` |
+| `ownership-structure-agent` | Maps ownership, control and who can actually approve a transaction. | `buyer-universe-mapping`, `deal-structuring`  ·  **India-sensitive** |
+| `public-filings-extraction-agent` | Extracts and reconciles structured financial data from filings with full traceability. | `financial-statement-modeling`  ·  **India-sensitive** |
 | `revenue-quality-agent` | Tests the durability and composition of reported revenue. | `diligence-questioning`, `financial-statement-modeling` |
 | `target-screening-agent` | Screens a sector for acquisition targets and tiers them by desirability and deliverability. | `screening-and-targeting`, `industry-analysis` |
 
@@ -27,11 +27,11 @@ Each definition carries a mission, the inputs it requires, a method, the output 
 | Agent | Purpose | Skills loaded |
 |---|---|---|
 | `cash-flow-forecasting-agent` | Builds short-term and medium-term cash flow forecasts including a 13-week model. | `financial-statement-modeling`, `scenario-and-stress-testing` |
-| `dcf-modeling-agent` | Builds a discounted cash flow valuation with a fully sourced discount rate. | `dcf-and-sensitivity`, `valuation-techniques` |
+| `dcf-modeling-agent` | Builds a discounted cash flow valuation with a fully sourced discount rate. | `dcf-and-sensitivity`, `valuation-techniques`  ·  **India-sensitive** |
 | `debt-schedule-agent` | Builds and audits multi-tranche debt schedules and cash sweep mechanics. | `lbo-modeling`, `financial-statement-modeling` |
 | `forecast-benchmarking-agent` | Tests a forecast against history, peers and consensus to find where it is not credible. | `financial-statement-modeling`, `industry-analysis` |
 | `lbo-modeling-agent` | Builds a leveraged buyout model with full debt mechanics and downside testing. | `lbo-modeling`, `scenario-and-stress-testing` |
-| `merger-model-agent` | Builds a merger model and accretion/dilution analysis with full purchase accounting. | `accretion-dilution-modeling`, `synergy-quantification` |
+| `merger-model-agent` | Builds a merger model and accretion/dilution analysis with full purchase accounting. | `accretion-dilution-modeling`, `synergy-quantification`  ·  **India-sensitive** |
 | `model-audit-agent` | Audits a financial model for structural and logical errors before it is relied on. | `financial-statement-modeling`, `dcf-and-sensitivity` |
 | `operating-model-agent` | Builds an integrated three-statement operating model from drivers. | `financial-statement-modeling`, `scenario-and-stress-testing` |
 | `scenario-modeling-agent` | Designs and runs internally consistent scenarios and stress tests. | `scenario-and-stress-testing`, `financial-statement-modeling` |
@@ -55,30 +55,30 @@ Each definition carries a mission, the inputs it requires, a method, the output 
 
 | Agent | Purpose | Skills loaded |
 |---|---|---|
-| `ability-to-pay-agent` | Determines what each buyer type can actually pay for an asset. | `lbo-modeling`, `accretion-dilution-modeling`, `buyer-universe-mapping` |
+| `ability-to-pay-agent` | Determines what each buyer type can actually pay for an asset. | `lbo-modeling`, `accretion-dilution-modeling`, `buyer-universe-mapping`  ·  **India-sensitive** |
 | `fairness-opinion-agent` | Assembles the analytical support for a fairness opinion to documentation standard. | `valuation-techniques`, `comparable-company-analysis`, `precedent-transaction-analysis` |
 | `football-field-agent` | Builds and quality-controls the valuation summary exhibit. | `valuation-techniques`, `pitchbook-construction` |
 | `precedent-transactions-agent` | Builds a precedent transaction analysis with rebuilt deal values and premia. | `precedent-transaction-analysis` |
 | `sum-of-parts-agent` | Values a multi-segment business by parts with segment-specific methods. | `valuation-techniques`, `comparable-company-analysis` |
-| `trading-comps-agent` | Builds and defends a trading comparable company analysis. | `comparable-company-analysis` |
+| `trading-comps-agent` | Builds and defends a trading comparable company analysis. | `comparable-company-analysis`  ·  **India-sensitive** |
 | `valuation-agent` | Runs a complete multi-method valuation and reconciles the methods. | `valuation-techniques`, `dcf-and-sensitivity`, `comparable-company-analysis`, `precedent-transaction-analysis` |
 | `valuation-gap-agent` | Bridges traded value to intrinsic value and identifies what closes the gap. | `valuation-techniques`, `risk-assessment` |
-| `wacc-agent` | Builds a defensible discount rate with every input cited. | `dcf-and-sensitivity` |
+| `wacc-agent` | Builds a defensible discount rate with every input cited. | `dcf-and-sensitivity`  ·  **India-sensitive** |
 
 ## Diligence Analysis  *(11)*
 
 | Agent | Purpose | Skills loaded |
 |---|---|---|
-| `antitrust-screening-agent` | Assesses competition clearance risk, remedies and timeline for a combination. | `risk-assessment`, `deal-structuring` |
+| `antitrust-screening-agent` | Assesses competition clearance risk, remedies and timeline for a combination. | `risk-assessment`, `deal-structuring`  ·  **India-sensitive** |
 | `contract-review-agent` | Reviews material contracts for the terms that affect value and deal execution. | `diligence-questioning`, `deal-structuring` |
 | `data-room-navigation-agent` | Indexes a data room and extracts what matters against a defined request list. | `diligence-questioning` |
 | `diligence-analysis-agent` | Runs and synthesises due diligence findings across workstreams. | `diligence-questioning`, `risk-assessment` |
 | `diligence-findings-synthesis-agent` | Consolidates findings from all workstreams into price and structure conclusions. | `diligence-questioning`, `risk-assessment`, `investment-memo-writing` |
 | `hr-and-culture-diligence-agent` | Assesses organisation, talent, compensation and integration culture risk. | `risk-assessment`, `diligence-questioning` |
 | `litigation-and-claims-agent` | Assesses litigation, claims and contingent liabilities and quantifies exposure. | `risk-assessment`, `deal-structuring` |
-| `quality-of-earnings-agent` | Tests reported EBITDA and builds the earnings figure you would underwrite. | `diligence-questioning`, `financial-statement-modeling` |
+| `quality-of-earnings-agent` | Tests reported EBITDA and builds the earnings figure you would underwrite. | `diligence-questioning`, `financial-statement-modeling`  ·  **India-sensitive** |
 | `synergy-analysis-agent` | Builds, grades and phases a synergy case including dis-synergies and costs to achieve. | `synergy-quantification`, `risk-assessment` |
-| `tax-diligence-agent` | Identifies historic tax exposures and assesses the transaction's tax structure. | `deal-structuring`, `risk-assessment` |
+| `tax-diligence-agent` | Identifies historic tax exposures and assesses the transaction's tax structure. | `deal-structuring`, `risk-assessment`  ·  **India-sensitive** |
 | `technology-diligence-agent` | Assesses the technology estate, technical debt and the investment it requires. | `diligence-questioning`, `risk-assessment` |
 
 ## Buyer Outreach  *(8)*
@@ -87,11 +87,11 @@ Each definition carries a mission, the inputs it requires, a method, the output 
 |---|---|---|
 | `bid-evaluation-agent` | Evaluates and ranks bids on certainty-adjusted value rather than headline price. | `term-sheet-analysis`, `buyer-universe-mapping` |
 | `buyer-outreach-agent` | Drafts buyer-specific outreach materials and approach strategy. | `buyer-universe-mapping`, `pitchbook-construction` |
-| `buyer-universe-agent` | Builds and tiers the complete universe of potential acquirers. | `buyer-universe-mapping` |
+| `buyer-universe-agent` | Builds and tiers the complete universe of potential acquirers. | `buyer-universe-mapping`  ·  **India-sensitive** |
 | `management-presentation-agent` | Designs and rehearses the management presentation for a sale process. | `pitchbook-construction`, `diligence-questioning` |
 | `negotiation-strategy-agent` | Builds the negotiation strategy for each counterparty. | `term-sheet-analysis`, `deal-structuring` |
 | `process-communication-agent` | Manages process communications with bidders, the seller and internal stakeholders. | `buyer-universe-mapping`, `investment-memo-writing` |
-| `process-design-agent` | Designs the sale process: type, waves, timetable and tension mechanics. | `buyer-universe-mapping`, `deal-structuring` |
+| `process-design-agent` | Designs the sale process: type, waves, timetable and tension mechanics. | `buyer-universe-mapping`, `deal-structuring`  ·  **India-sensitive** |
 | `teaser-drafting-agent` | Drafts the anonymous one-page teaser for a sale process. | `pitchbook-construction`, `buyer-universe-mapping` |
 
 ## Pitchbook Drafting  *(8)*
@@ -128,7 +128,7 @@ Each definition carries a mission, the inputs it requires, a method, the output 
 | `issues-log-agent` | Maintains the transaction issues log and drives items to resolution. | `risk-assessment` |
 | `pipeline-management-agent` | Maintains the origination pipeline and prepares pipeline reviews. | `screening-and-targeting` |
 | `post-signing-tracker-agent` | Tracks the period between signing and closing including integration readiness. | `synergy-quantification`, `risk-assessment` |
-| `timeline-management-agent` | Builds and reforecasts transaction timetables against actual progress. | `precedent-transaction-analysis` |
+| `timeline-management-agent` | Builds and reforecasts transaction timetables against actual progress. | `precedent-transaction-analysis`  ·  **India-sensitive** |
 | `workstream-coordination-agent` | Coordinates advisers and workstreams across a transaction. | `diligence-questioning` |
 
 ## KPIs & Dashboards  *(7)*
@@ -162,14 +162,14 @@ Each definition carries a mission, the inputs it requires, a method, the output 
 | `activist-defence-agent` | Prepares a company's defence against activist shareholder campaigns. | `valuation-techniques`, `buyer-universe-mapping` |
 | `capital-structure-agent` | Advises on optimal capital structure and capital allocation. | `lbo-modeling`, `valuation-techniques` |
 | `carve-out-analysis-agent` | Analyses a divestment carve-out including standalone costs and separation. | `financial-statement-modeling`, `deal-structuring` |
-| `creditor-recovery-agent` | Models recoveries by creditor class through the waterfall. | `lbo-modeling`, `valuation-techniques` |
-| `cross-border-agent` | Assesses cross-border transaction considerations beyond the commercial terms. | `deal-structuring`, `risk-assessment` |
+| `creditor-recovery-agent` | Models recoveries by creditor class through the waterfall. | `lbo-modeling`, `valuation-techniques`  ·  **India-sensitive** |
+| `cross-border-agent` | Assesses cross-border transaction considerations beyond the commercial terms. | `deal-structuring`, `risk-assessment`  ·  **India-sensitive** |
 | `financing-markets-agent` | Assesses current financing market conditions and available structures. | `term-sheet-analysis`, `lbo-modeling` |
-| `hostile-bid-agent` | Analyses and prepares for unsolicited and hostile takeover situations. | `valuation-techniques`, `buyer-universe-mapping`, `risk-assessment` |
+| `hostile-bid-agent` | Analyses and prepares for unsolicited and hostile takeover situations. | `valuation-techniques`, `buyer-universe-mapping`, `risk-assessment`  ·  **India-sensitive** |
 | `integration-planning-agent` | Builds the post-close integration plan aligned to the synergy case. | `synergy-quantification`, `risk-assessment` |
 | `joint-venture-agent` | Structures and evaluates joint ventures and partnerships. | `deal-structuring`, `valuation-techniques` |
-| `minority-stake-agent` | Evaluates minority investments and the protections they require. | `valuation-techniques`, `deal-structuring` |
+| `minority-stake-agent` | Evaluates minority investments and the protections they require. | `valuation-techniques`, `deal-structuring`  ·  **India-sensitive** |
 | `rating-agency-agent` | Assesses rating implications and prepares rating agency materials. | `lbo-modeling`, `term-sheet-analysis` |
-| `restructuring-analysis-agent` | Analyses a distressed capital structure and the restructuring options. | `valuation-techniques`, `scenario-and-stress-testing`, `deal-structuring` |
+| `restructuring-analysis-agent` | Analyses a distressed capital structure and the restructuring options. | `valuation-techniques`, `scenario-and-stress-testing`, `deal-structuring`  ·  **India-sensitive** |
 | `sector-specialist-agent` | Applies sector-specific valuation metrics, drivers and conventions. | `industry-analysis`, `valuation-techniques` |
 | `source-verification-agent` | Verifies every figure in a deliverable against its primary source. | `financial-statement-modeling`, `pitchbook-construction` |

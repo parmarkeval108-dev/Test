@@ -7,6 +7,8 @@ description: Leveraged buyout modelling - sources and uses, capital structure de
 
 An LBO model answers two questions: what can be paid, and what survives the downside. Everything else is supporting detail.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — the open-offer obligation changes the equity cheque, and IBC governs the downside.
+
 ## Techniques
 
 1. **Sources and uses discipline** — Uses: equity purchase price, refinanced debt, transaction fees, financing fees, minimum cash at close. Sources: each tranche at its committed size, sponsor equity as the plug, rollover, and any preferred. It balances to the cent or the model is wrong somewhere else too.

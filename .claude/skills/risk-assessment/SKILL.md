@@ -7,6 +7,8 @@ description: Transaction risk identification, quantification, mitigation and res
 
 Generic risks dilute real ones. Eight specific, quantified, owned risks beat thirty boilerplate bullets.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — regulatory risk is dominated by CCI notifiability, Press Note 3 approval and NCLT timelines.
+
 ## Techniques
 
 1. **Quantified risk register** — Each risk: description specific enough to be falsifiable, likelihood, impact in dollars, mitigation, residual exposure after mitigation, owner, and the indicator that would tell you it is materialising. A risk without a dollar figure has not been assessed.

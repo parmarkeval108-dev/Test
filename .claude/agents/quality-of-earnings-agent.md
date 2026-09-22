@@ -7,6 +7,7 @@ description: Tests reported EBITDA and builds the earnings figure you would unde
 
 **Family:** Diligence Analysis  ·  **Layer:** Intelligence
 **Load skills:** `diligence-questioning`, `financial-statement-modeling`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — promoter-affiliated related-party arrangements are common, material, and may not survive a change of control.
 
 ## Mission
 

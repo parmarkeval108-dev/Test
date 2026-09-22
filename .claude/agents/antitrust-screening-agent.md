@@ -7,6 +7,7 @@ description: Assesses competition clearance risk, remedies and timeline for a co
 
 **Family:** Diligence Analysis  ·  **Layer:** Intelligence
 **Load skills:** `risk-assessment`, `deal-structuring`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — CCI thresholds include a deal value test, and the Green Channel clears a no-overlap deal on the day of filing.
 
 ## Mission
 

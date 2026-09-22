@@ -17,8 +17,8 @@ insights   expertise   intelligence  structured   lasting
 
 | # | Layer | What it is | Count | Where |
 |---|---|---|---|---|
-| 1 | **[Prompts](prompts/README.md)** — the Insight Layer | Demanding, specific prompts that ask for the source, the driver and the disproving fact | **504** across 12 libraries | `ib-kit/prompts/` |
-| 2 | **[Skills](skills/README.md)** — the Thinking Layer | Working Claude Code skills encoding named techniques with their methods and failure modes | **18** skills, **248** techniques | `.claude/skills/` |
+| 1 | **[Prompts](prompts/README.md)** — the Insight Layer | Demanding, specific prompts that ask for the source, the driver and the disproving fact | **505** across 12 libraries | `ib-kit/prompts/` |
+| 2 | **[Skills](skills/README.md)** — the Thinking Layer | Working Claude Code skills encoding named techniques with their methods and failure modes | **19** skills, **265** techniques | `.claude/skills/` |
 | 3 | **[Agents](agents/README.md)** — the Intelligence Layer | Working Claude Code subagents with a mission, method, output and non-negotiables | **107** across 12 families | `.claude/agents/` |
 | 4 | **[Workflows](workflows/README.md)** — the Execution Layer | Sequenced, gated procedures chaining agents into deliverables | **26** workflows | `ib-kit/workflows/` |
 | 5 | **[Systems](systems/README.md)** — the Impact Engine | Standing operating models with their own state, cadence and measures | **3** systems | `ib-kit/systems/` |
@@ -57,10 +57,10 @@ These appear in every agent definition and every skill's quality bar. They are t
 
 ```
 .claude/
-  skills/         18 working skills — load automatically by description
+  skills/         19 working skills — load automatically by description
   agents/        107 working subagents — invoke by name
 ib-kit/
-  prompts/       504 prompts across 12 libraries
+  prompts/       505 prompts across 12 libraries
   workflows/      26 gated, phased procedures
   systems/         3 standing operating models
   CONTEXTS.md    engagement contexts and their common failure modes

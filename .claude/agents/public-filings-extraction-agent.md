@@ -7,6 +7,7 @@ description: Extracts and reconciles structured financial data from filings with
 
 **Family:** Company Research  ·  **Layer:** Intelligence
 **Load skills:** `financial-statement-modeling`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — unlisted Indian company financials are publicly filed through MCA21.
 
 ## Mission
 

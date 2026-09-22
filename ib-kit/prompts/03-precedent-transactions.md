@@ -11,7 +11,7 @@
 4. **Size banding** — "Band the set by deal value. Test whether multiples rise with size and state the implied read for a `<$X>`m transaction."
 5. **Control-transaction filter** — "Retain only transactions conveying control (above 50% or effective control). List minority-stake deals separately and explain why they are not directly comparable."
 6. **Process-type tagging** — "Tag each deal as broad auction, targeted process, bilateral negotiation, or hostile/unsolicited. Compare multiples across process types."
-7. **Distressed carve-out** — "Separate distressed and 363/insolvency transactions from the main set. Report both medians and explain when the distressed set is the relevant benchmark."
+7. **Distressed carve-out** — "Separate distressed and insolvency transactions (US 363 sales, UK administrations, India IBC resolutions) from the main set. Report both medians and explain when the distressed set is the relevant benchmark."
 8. **Failed deals** — "List announced transactions in the set that did not close. Give the reason each failed — financing, regulatory, shareholder vote, MAC — and what it implies for deliverability here."
 9. **Cross-border subset** — "Identify cross-border deals in the set. Assess whether foreign acquirers paid a premium and whether FDI screening lengthened timelines."
 10. **Data availability audit** — "For each deal, state whether the multiple is disclosed, derived from filings, or a press estimate. Compute the medians using disclosed-only, then all. Report both."
@@ -43,7 +43,7 @@
 27. **Break fees** — "Compute target and reverse break fees as a percentage of equity value across the set. Report median by deal size and by regulatory risk level."
 28. **Regulatory conditions** — "Catalogue the antitrust, FDI and sector-regulator conditions in each deal, the remedies offered, and the time from signing to closing."
 29. **MAC definitions** — "Compare material adverse change clauses across the set. Identify the carve-outs that became market standard and any deal where MAC was invoked."
-30. **Timeline benchmark** — "Compute median days from announcement to closing, split by whether a second request or Phase 2 review occurred. Use it to set expectations for `<Company>`."
+30. **Timeline benchmark** — "Compute median days from announcement to closing, split by whether an in-depth review occurred (US second request, EU/UK Phase 2, India CCI Phase II). Use it to set expectations for `<Company>`."
 31. **Rollover and management terms** — "For sponsor deals, summarise management rollover percentages, option pool sizes and vesting terms."
 32. **Escrow and W&I** — "Report typical escrow size and tenor, and the shift toward warranty and indemnity insurance across the window."
 

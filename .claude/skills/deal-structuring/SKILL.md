@@ -7,6 +7,8 @@ description: Transaction structuring - legal form, consideration design, earn-ou
 
 Structure is how a price gap becomes a deal. Every mechanism transfers a specific risk to a specific party — name the risk before proposing the mechanism.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — price is bounded by FEMA floors and ceilings cross-border, deferred consideration is capped at 25% for 18 months, and many structures proceed by NCLT-sanctioned scheme.
+
 ## Techniques
 
 1. **Legal form selection** — Share purchase, asset purchase, statutory merger, scheme of arrangement or tender offer. Each differs in liability transfer, consent requirements, tax treatment, shareholder approval threshold and timetable. Choose from the binding constraint, not from precedent.

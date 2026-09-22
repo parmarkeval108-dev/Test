@@ -7,6 +7,7 @@ description: Determines what each buyer type can actually pay for an asset. Use 
 
 **Family:** Valuation  ·  **Layer:** Intelligence
 **Load skills:** `lbo-modeling`, `accretion-dilution-modeling`, `buyer-universe-mapping`
+**Jurisdiction:** For Indian targets, acquirers or listings, load `india-transaction-regime` before this agent's method — a mandatory open offer can add up to 26% of voting capital to the funding requirement, so the affordability envelope is not the negotiated stake.
 
 ## Mission
 

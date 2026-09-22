@@ -7,6 +7,8 @@ description: Core valuation methods for investment banking - selecting an approa
 
 Valuation is an argument about the future supported by evidence, not a calculation. Every number carries a source; every judgement is stated as a judgement.
 
+> **India:** load `india-transaction-regime` before applying this skill to an Indian company — the open-offer price sets a statutory floor for minorities and FEMA bounds cross-border price.
+
 ## Method selection
 
 Pick methods from what the asset is, not from habit.
